@@ -1,15 +1,16 @@
 import { useState } from "react";
-import { Menu, X, Search, BookOpen, Users, Mail } from "lucide-react";
+import { Menu, X, Phone, Settings, Users, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import techLensLogo from "@/assets/tech-lens-logo.png";
+import techLensLogo from "@/assets/techlens-logo.png";
 
 const Navigation = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { href: "#articles", label: "Articles", icon: BookOpen },
+    { href: "#services", label: "Services", icon: Settings },
+    { href: "#solutions", label: "Solutions", icon: Users },
     { href: "#about", label: "About", icon: Users },
-    { href: "#newsletter", label: "Newsletter", icon: Mail },
+    { href: "#contact", label: "Contact", icon: Mail },
   ];
 
   return (
@@ -45,8 +46,8 @@ const Navigation = () => {
               variant="tech-gradient"
               className="hover:shadow-glow"
             >
-              <Search className="h-4 w-4 mr-1" />
-              Search
+              <Phone className="h-4 w-4 mr-1" />
+              Get Quote
             </Button>
           </div>
 
@@ -77,8 +78,8 @@ const Navigation = () => {
               </a>
             ))}
             <Button size="sm" variant="tech-gradient" className="w-full">
-              <Search className="h-4 w-4 mr-2" />
-              Search
+              <Phone className="h-4 w-4 mr-2" />
+              Get Quote
             </Button>
           </div>
         )}

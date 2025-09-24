@@ -5,23 +5,23 @@ const About = () => {
   const values = [
     {
       icon: Target,
-      title: "Mission-Driven",
-      description: "Democratizing tech knowledge for everyone",
+      title: "Excellence-Driven",
+      description: "Delivering solutions with precision and quality",
     },
     {
       icon: Award,
-      title: "Expert Insights",
-      description: "Content from industry professionals",
+      title: "Enterprise Focus",
+      description: "Specialized in large-scale business solutions",
     },
     {
       icon: TrendingUp,
-      title: "Future-Focused",
-      description: "Covering emerging technologies and trends",
+      title: "Innovation-Led",
+      description: "Leveraging cutting-edge technologies",
     },
     {
       icon: Users,
-      title: "Community-First",
-      description: "Building connections in the tech world",
+      title: "Partnership-Based",
+      description: "Building long-term client relationships",
     },
   ];
 
@@ -31,27 +31,27 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              About <span className="tech-gradient bg-clip-text text-transparent">The Tech Lens</span>
+              About <span className="tech-gradient bg-clip-text text-transparent">The TechLens</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              We're passionate about making complex technology accessible to everyone. 
-              Through in-depth analysis, expert insights, and practical guides, we help you 
-              navigate the ever-evolving tech landscape.
+              We're your trusted technology partner, dedicated to transforming businesses through 
+              innovative IT solutions. With expertise spanning infrastructure, cloud, networking, 
+              and DevOps, we deliver precision-engineered solutions that drive growth.
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="animate-slide-up">
-              <h3 className="text-2xl font-bold mb-6">Our Vision</h3>
+              <h3 className="text-2xl font-bold mb-6">Our Mission</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                In a world where technology evolves at breakneck speed, staying informed 
-                is crucial. The Tech Lens serves as your guide through the digital revolution, 
-                offering clarity in complexity and insight into innovation.
+                To empower enterprises with cutting-edge technology solutions that drive productivity, 
+                enable scalability, and ensure seamless operations. We bridge the gap between complex 
+                technology and business success.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                From artificial intelligence to quantum computing, from mobile development 
-                to cybersecurity, we cover the full spectrum of technology with depth, 
-                accuracy, and accessibility.
+                From infrastructure design to cloud migration, from network security to DevOps 
+                automation, we deliver comprehensive solutions with precision and reliability 
+                that enterprises trust.
               </p>
             </div>
 
@@ -76,12 +76,12 @@ const About = () => {
             </div>
           </div>
 
-          {/* Team Stats */}
+          {/* Company Stats */}
           <div className="bg-muted/30 rounded-2xl p-8 animate-fade-in">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
               <div>
                 <div className="text-3xl font-bold tech-gradient bg-clip-text text-transparent mb-2">
-                  5+
+                  10+
                 </div>
                 <div className="text-muted-foreground">Years of Experience</div>
               </div>
@@ -89,13 +89,13 @@ const About = () => {
                 <div className="text-3xl font-bold tech-gradient bg-clip-text text-transparent mb-2">
                   200+
                 </div>
-                <div className="text-muted-foreground">Articles Published</div>
+                <div className="text-muted-foreground">Enterprise Clients</div>
               </div>
               <div>
                 <div className="text-3xl font-bold tech-gradient bg-clip-text text-transparent mb-2">
-                  50K+
+                  99.9%
                 </div>
-                <div className="text-muted-foreground">Monthly Readers</div>
+                <div className="text-muted-foreground">Uptime Guarantee</div>
               </div>
             </div>
           </div>

@@ -1,36 +1,36 @@
 import { Github, Twitter, Linkedin, Mail, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import techLensLogo from "@/assets/tech-lens-logo.png";
+import techLensLogo from "@/assets/techlens-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const footerLinks = {
-    content: [
-      { label: "Articles", href: "#articles" },
-      { label: "Categories", href: "#categories" },
-      { label: "Archive", href: "#archive" },
-      { label: "RSS Feed", href: "#rss" },
+    services: [
+      { label: "Infrastructure", href: "#infrastructure" },
+      { label: "Cloud & DevOps", href: "#cloud" },
+      { label: "Networking", href: "#networking" },
+      { label: "Systems Integration", href: "#systems" },
     ],
     company: [
       { label: "About", href: "#about" },
       { label: "Contact", href: "#contact" },
+      { label: "Careers", href: "#careers" },
       { label: "Privacy Policy", href: "#privacy" },
-      { label: "Terms of Service", href: "#terms" },
     ],
     resources: [
-      { label: "Newsletter", href: "#newsletter" },
-      { label: "Tech News", href: "#news" },
-      { label: "Guides", href: "#guides" },
-      { label: "Tools", href: "#tools" },
+      { label: "Case Studies", href: "#cases" },
+      { label: "White Papers", href: "#papers" },
+      { label: "Support", href: "#support" },
+      { label: "Documentation", href: "#docs" },
     ],
   };
 
   const socialLinks = [
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+    { icon: Twitter, href: "https://twitter.com/thetechlens", label: "Twitter" },
+    { icon: Github, href: "https://github.com/thetechlens", label: "GitHub" },
+    { icon: Linkedin, href: "https://linkedin.com/company/thetechlens", label: "LinkedIn" },
     { icon: Mail, href: "mailto:hello@thetechlens.com", label: "Email" },
   ];
 
@@ -51,8 +51,8 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed max-w-md">
-              Exploring the cutting-edge of technology, innovation, and digital transformation. 
-              Your trusted source for tech insights that matter.
+              Your trusted partner for Infrastructure, Systems, Networking, Cloud & DevOps solutions. 
+              Helping enterprises harness modern IT tools with precision and expertise.
             </p>
             <div className="flex space-x-2">
               {socialLinks.map((social) => (
@@ -73,9 +73,9 @@ const Footer = () => {
 
           {/* Links */}
           <div>
-            <h4 className="font-semibold mb-4">Content</h4>
+            <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-3">
-              {footerLinks.content.map((link) => (
+              {footerLinks.services.map((link) => (
                 <li key={link.label}>
                   <a 
                     href={link.href} 
@@ -126,10 +126,10 @@ const Footer = () => {
 
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground mb-4 sm:mb-0">
-            © {currentYear} The Tech Lens. All rights reserved.
+            © {currentYear} The TechLens. All rights reserved.
           </p>
           <div className="flex items-center space-x-4 text-sm text-muted-foreground">
-            <span>Made with ❤️ for tech enthusiasts</span>
+            <span>Empowering enterprises with precision technology</span>
           </div>
         </div>
       </div>
