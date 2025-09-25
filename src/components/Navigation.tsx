@@ -26,7 +26,7 @@ const Navigation = () => {
             />
             <div className="flex flex-col">
               <span className="text-2xl font-bold bg-gradient-to-r from-primary via-primary-glow to-accent bg-clip-text text-transparent tracking-tight">
-                The TechLens
+                TechLens Solutions Limited
               </span>
               <span className="text-xs text-muted-foreground font-medium tracking-wider uppercase">
                 Technology Solutions
