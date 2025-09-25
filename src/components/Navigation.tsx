@@ -18,15 +18,12 @@ const Navigation = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center">
             <img 
               src={techLensLogo} 
-              alt="The Tech Lens" 
-              className="h-8 w-8 animate-float"
+              alt="The TechLens" 
+              className="h-12 w-auto animate-float"
             />
-            <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              The Tech Lens
-            </span>
           </div>
 
           {/* Desktop Navigation */}
