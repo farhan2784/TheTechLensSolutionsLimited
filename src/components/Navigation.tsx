@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X, Phone, Settings, Users, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import techLensLogo from "@/assets/techlens-logo.png";
+import techLensLogo from "@/assets/techlens-logo-new.png";
 
 const Navigation = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -18,12 +18,20 @@ const Navigation = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center">
+          <div className="flex items-center space-x-3">
             <img 
               src={techLensLogo} 
               alt="The TechLens" 
-              className="h-12 w-auto animate-float"
+              className="h-10 w-auto animate-float"
             />
+            <div className="flex flex-col">
+              <span className="text-2xl font-bold bg-gradient-to-r from-primary via-primary-glow to-accent bg-clip-text text-transparent tracking-tight">
+                The TechLens
+              </span>
+              <span className="text-xs text-muted-foreground font-medium tracking-wider uppercase">
+                Technology Solutions
+              </span>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
