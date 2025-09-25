@@ -25,7 +25,7 @@ const Navigation = () => {
               className="h-10 w-auto animate-float"
             />
             <div className="flex flex-col">
-              <span className="text-2xl font-bold bg-gradient-to-r from-primary via-primary-glow to-accent bg-clip-text text-transparent tracking-tight">
+              <span className="text-2xl font-bold text-foreground tracking-tight">
                 TechLens Solutions Limited
               </span>
             </div>
