@@ -48,7 +48,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+1 (555) 123-4567", "Mon-Fri 9AM-6PM EST"],
+      details: ["+92 (346) 267-4952", "Mon-Fri 9AM-7PM PST"],
       action: "Schedule a call",
     },
     {
@@ -60,7 +60,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Visit Us",
-      details: ["123 Tech Valley Drive", "San Francisco, CA 94105"],
+      details: ["Gulzar-e-Hijri Scheme 33", "Karachi"],
       action: "Get directions",
     },
   ];
