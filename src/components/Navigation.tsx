@@ -37,7 +37,7 @@ const Navigation = () => {
               <a
                 key={item.href}
                 href={item.href}
-                className="flex items-center space-x-1 text-muted-foreground hover:text-primary tech-link transition-colors duration-200"
+                className="flex items-center space-x-1 text-white hover:text-primary-glow tech-link transition-colors duration-200"
               >
                 <item.icon className="h-4 w-4" />
                 <span>{item.label}</span>
@@ -72,7 +72,7 @@ const Navigation = () => {
               <a
                 key={item.href}
                 href={item.href}
-                className="flex items-center space-x-2 text-muted-foreground hover:text-primary py-2 tech-link transition-colors duration-200"
+                className="flex items-center space-x-2 text-white hover:text-primary-glow py-2 tech-link transition-colors duration-200"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <item.icon className="h-4 w-4" />
