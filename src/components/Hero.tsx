@@ -79,12 +79,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator - Hidden to prevent overlap */}
-      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 animate-bounce z-10 opacity-0 md:opacity-100">
-        <div className="w-4 h-8 border-2 border-white/30 rounded-full flex justify-center">
-          <div className="w-0.5 h-2 bg-white/50 rounded-full mt-1.5 animate-pulse"></div>
-        </div>
-      </div>
+      {/* Scroll Indicator removed to avoid overlap */}
     </section>
   );
 };
