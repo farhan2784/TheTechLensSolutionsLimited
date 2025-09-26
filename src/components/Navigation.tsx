@@ -14,7 +14,7 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 glass-effect border-b border-white/10">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border shadow-sm transition-colors">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -25,7 +25,7 @@ const Navigation = () => {
               className="h-10 w-auto animate-float"
             />
             <div className="flex flex-col">
-              <span className="text-2xl font-bold bg-gradient-to-r from-white to-primary-glow bg-clip-text text-transparent tracking-tight">
+              <span className="text-2xl font-bold text-foreground tracking-tight">
                 TechLens Solutions Limited
               </span>
             </div>
@@ -37,7 +37,7 @@ const Navigation = () => {
               <a
                 key={item.href}
                 href={item.href}
-                className="flex items-center space-x-1 text-white hover:text-primary-glow tech-link transition-colors duration-200"
+                className="flex items-center space-x-1 text-foreground hover:text-primary tech-link transition-colors duration-200"
               >
                 <item.icon className="h-4 w-4" />
                 <span>{item.label}</span>
@@ -72,7 +72,7 @@ const Navigation = () => {
               <a
                 key={item.href}
                 href={item.href}
-                className="flex items-center space-x-2 text-white hover:text-primary-glow py-2 tech-link transition-colors duration-200"
+                className="flex items-center space-x-2 text-foreground hover:text-primary py-2 tech-link transition-colors duration-200"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <item.icon className="h-4 w-4" />
