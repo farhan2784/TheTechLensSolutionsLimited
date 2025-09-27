@@ -44,13 +44,14 @@ const Footer = () => {
               <img 
                 src={techLensLogo} 
                 alt="The Tech Lens" 
-                className="h-12 w-12 md:h-14 md:w-14"
+                className="h-16 w-16 md:h-20 md:w-20"
                 loading="lazy"
                 decoding="async"
               />
-              <span className="text-xl font-bold tech-gradient bg-clip-text text-transparent">
-                The Tech Lens
-              </span>
+              <div className="flex items-baseline gap-2">
+                <span className="text-2xl md:text-3xl font-extrabold text-foreground">The</span>
+                <span className="text-2xl md:text-3xl font-extrabold tech-gradient bg-clip-text text-transparent">TechLens</span>
+              </div>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed max-w-md">
               Your trusted partner for Infrastructure, Systems, Networking, Cloud & DevOps solutions. 
