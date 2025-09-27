@@ -1,7 +1,7 @@
 import { Github, Twitter, Linkedin, Mail, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import techLensLogo from "@/assets/techlens-logo.png";
+import techLensLogo from "@/assets/techlens-logo-new.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -40,17 +40,17 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-2 md:gap-3 mb-4 flex-nowrap">
+            <div className="flex items-center mb-4 flex-nowrap">
               <img 
                 src={techLensLogo} 
-                alt="The TechLens Solutions" 
-                className="h-24 w-24 md:h-28 md:w-28"
+                alt="The TechLens Solutions logo" 
+                className="h-28 md:h-32 w-auto object-contain"
                 loading="lazy"
                 decoding="async"
               />
-              <div className="flex items-center gap-2 whitespace-nowrap">
-                <span className="text-base md:text-xl font-extrabold text-foreground">The</span>
-                <span className="text-base md:text-xl font-extrabold tech-gradient bg-clip-text text-transparent">TechLens Solutions</span>
+              <div className="-ml-2 md:-ml-3 flex items-baseline whitespace-nowrap">
+                <span className="text-3xl md:text-5xl font-extrabold text-foreground leading-none">The</span>
+                <span className="ml-2 text-3xl md:text-5xl font-extrabold tech-gradient bg-clip-text text-transparent leading-none">TechLens Solutions</span>
               </div>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed max-w-md">
