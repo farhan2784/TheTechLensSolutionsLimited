@@ -44,7 +44,9 @@ const Footer = () => {
               <img 
                 src={techLensLogo} 
                 alt="The Tech Lens" 
-                className="h-8 w-8"
+                className="h-12 w-12 md:h-14 md:w-14"
+                loading="lazy"
+                decoding="async"
               />
               <span className="text-xl font-bold tech-gradient bg-clip-text text-transparent">
                 The Tech Lens
