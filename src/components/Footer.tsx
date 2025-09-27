@@ -40,17 +40,17 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-3 mb-4">
+            <div className="flex items-center gap-2 md:gap-3 mb-4 flex-nowrap">
               <img 
                 src={techLensLogo} 
                 alt="The TechLens Solutions" 
-                className="h-20 w-20 md:h-24 md:w-24"
+                className="h-24 w-24 md:h-28 md:w-28"
                 loading="lazy"
                 decoding="async"
               />
-              <div className="flex items-baseline gap-2">
-                <span className="text-xl md:text-2xl font-extrabold text-foreground">The</span>
-                <span className="text-xl md:text-2xl font-extrabold tech-gradient bg-clip-text text-transparent">TechLens Solutions</span>
+              <div className="flex items-center gap-2 whitespace-nowrap">
+                <span className="text-base md:text-xl font-extrabold text-foreground">The</span>
+                <span className="text-base md:text-xl font-extrabold tech-gradient bg-clip-text text-transparent">TechLens Solutions</span>
               </div>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed max-w-md">
