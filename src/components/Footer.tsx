@@ -43,14 +43,14 @@ const Footer = () => {
             <div className="flex items-center space-x-3 mb-4">
               <img 
                 src={techLensLogo} 
-                alt="The Tech Lens" 
-                className="h-16 w-16 md:h-20 md:w-20"
+                alt="The TechLens Solutions" 
+                className="h-20 w-20 md:h-24 md:w-24"
                 loading="lazy"
                 decoding="async"
               />
               <div className="flex items-baseline gap-2">
-                <span className="text-2xl md:text-3xl font-extrabold text-foreground">The</span>
-                <span className="text-2xl md:text-3xl font-extrabold tech-gradient bg-clip-text text-transparent">TechLens</span>
+                <span className="text-xl md:text-2xl font-extrabold text-foreground">The</span>
+                <span className="text-xl md:text-2xl font-extrabold tech-gradient bg-clip-text text-transparent">TechLens Solutions</span>
               </div>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed max-w-md">
