@@ -22,7 +22,7 @@ const Navigation = () => {
             <img 
               src={techLensLogo} 
               alt="TechLens Solutions Limited" 
-              className="h-16 w-auto md:h-18 lg:h-20 animate-float"
+              className="h-12 w-auto md:h-12 lg:h-14 animate-float"
             />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-foreground tracking-tight leading-tight">
